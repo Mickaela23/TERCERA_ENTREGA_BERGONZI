@@ -1,0 +1,189 @@
+@charset "UTF-8";
+body {
+  margin: 20px;
+}
+
+h1 {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "Fjalla One", sans-serif;
+  margin: 5px;
+  padding-top: 15px;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Quicksand", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #A6A6A6;
+  font-family: "Quicksand", sans-serif;
+}
+
+.footer__mapa {
+  width: 600px;
+  height: 600px;
+}
+
+.footer__link {
+  margin-top: 5px;
+  padding-left: 1px;
+  margin-left: 1px;
+}
+
+.contacto__formulario {
+  color: #0D0D0D;
+  font-family: "Quicksand", sans-serif;
+}
+
+.contacto__fondo {
+  background-color: #F2F2F2;
+}
+
+.grid-container {
+  display: grid;
+  /* auto como unidad de medida*/
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: repeat(4, 100px);
+  /* row y column gap para espaciado*/
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.grid-container .grid-item {
+  font-size: 100px;
+  padding: 100px;
+}
+
+.grid-item {
+  background-color: rgb(122, 223, 236);
+  text-align: center;
+}
+
+@media only screen and (max-width: 320px) {
+  .footer__mapa {
+    width: 250px;
+    height: 250px;
+  }
+}
+@media only screen and (max-width: 280px) {
+  .footer__mapa {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+  .footer__mapa {
+    width: 220px;
+    height: 250px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .destinos__imagen {
+    display: none;
+  }
+}
+@media only screen and (min-width: 875px) and (max-width: 1100px) {
+  .destinos__parrafo {
+    font-size: 0.7rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 874px) {
+  .destinos__parrafo {
+    font-size: 0.6rem;
+  }
+}
+@media only screen and (min-width: 994px) and (max-width: 1110px) {
+  .gastronomia__parrafo {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (min-width: 850px) and (max-width: 994px) {
+  .gastronomia__parrafo {
+    font-size: 0.7rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 850px) {
+  .gastronomia__parrafo {
+    font-size: 0.6rem;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 767px) {
+  .gastronomia__imagen {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .gastronomia__imagen {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1041px) {
+  .alojamientos__parrafo {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (min-width: 767px) and (max-width: 900px) {
+  .alojamientos__parrafo {
+    font-size: 0.6rem;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 767px) {
+  .alojamientos__imagen {
+    width: 400px;
+    height: 400px;
+  }
+}
+/*Cambiando la variable por estilo1 ó estilo2 en el archivo condicionales.scss, puedo cambiar la combinación de colores de la página*/
+body {
+  background-color: #1105f7;
+}
+
+header {
+  background-color: #0D0D0D;
+}
+
+footer {
+  background-color: #0de9a7;
+}
+
+.header__destinos {
+  color: #F2F2F2;
+}
+
+p {
+  color: #0D0D0D;
+}
+
+h3 {
+  color: #0D0D0D;
+}
+
+h1 {
+  color: #0D0D0D;
+}
+
+H2 {
+  color: #0D0D0D;
+}
+
+.header__logo {
+  height: 55px;
+  width: auto;
+}
+
+/*# sourceMappingURL=stylus.css.map */

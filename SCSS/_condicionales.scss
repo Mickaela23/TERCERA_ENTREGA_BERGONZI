@@ -1,0 +1,31 @@
+$estilo-paginas: estilo1; /*Cambiando la variable por estilo1 ó estilo2 en el archivo condicionales.scss, puedo cambiar la combinación de colores de la página*/
+
+
+      @if $estilo-paginas == estilo1 {
+             body{background-color:#1105f7;}
+             header{background-color:#0D0D0D;}
+             footer{background-color:#0de9a7;}
+             .header__destinos{color: #F2F2F2;}
+             p {color: #0D0D0D;}
+             h3{color:#0D0D0D;}
+             h1{color:#0D0D0D;}
+			H2{color: $color-oscuro;}
+			
+
+}
+
+       @else if $estilo-paginas == estilo2{
+            body{background-color:#f73505;}
+            header{background-color:#0D0D0D;}
+            footer{background-color:#0D0D0D;}
+            .header__destinos{color: #F2F2F2;}
+            p {color: #0D0D0D;}
+            h3{color:#0D0D0D;}
+            h1{color:#0D0D0D;}
+                 H2{color: $color-oscuro;}
+                 
+
+     } 
+
+
+
